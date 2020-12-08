@@ -5,55 +5,66 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.RadioButton
+import androidx.navigation.fragment.findNavController
+import kotlinx.android.synthetic.main.fragment_questao8.*
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [Questao8Fragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class Questao8Fragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
+    var pontuacaoQuestao8: Int = 0
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
+    lateinit var radioButton: RadioButton
+
+    val questao8 = Questoes(8,
+            "8. Qual sua faixa de renda mensal média?",
+            "Até R$ 1.000",
+            "De R$ 1.001 até R$ 5.000",
+            "De R$ 5.001 até R$ 10.000",
+            "Acima de R$ 10.000",
+            null,
+            0, 1,2,4,null)
+
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        return inflater.inflate(R.layout.fragment_questao8, container, false)
+    }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        textViewQuestion.text = questao8.questoes
+        radioButtonOptionA.text = questao8.opcao1
+        radioButtonOptionB.text = questao8.opcao2
+        radioButtonOptionC.text = questao8.opcao3
+        radioButtonOptionD.text = questao8.opcao4
+
+        btnProximaQuestao.setOnClickListener {
+            var bundlePontuacao8 = Bundle(clickRadioButton8())
+            bundlePontuacao8.putInt("pontuacao8", pontuacaoQuestao8)
+
+            findNavController().navigate(R.id.action_questao8Fragment_to_questao9Fragment, bundlePontuacao8)
         }
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_questao8, container, false)
-    }
+    private fun clickRadioButton8(): Int {
+        val pontuacaoQuestao7: Int = arguments?.get("pontuacao7") as Int
+        val opcaoRadioButton = radioGroupOptions.checkedRadioButtonId
+        radioButton = radioGroupOptions.findViewById(opcaoRadioButton)
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment Questao8Fragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            Questao8Fragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
+        val _questao8 = Questao8Fragment().questao8
+
+        when {
+            radioButtonOptionA.isChecked -> {
+                pontuacaoQuestao8 = _questao8.pontuacao1 + pontuacaoQuestao7
             }
+            radioButtonOptionB.isChecked -> {
+                pontuacaoQuestao8 = _questao8.pontuacao2 + pontuacaoQuestao7
+            }
+            radioButtonOptionC.isChecked -> {
+                pontuacaoQuestao8 = _questao8.pontuacao3 + pontuacaoQuestao7
+            }
+            radioButtonOptionD.isChecked -> {
+                pontuacaoQuestao8 = _questao8.pontuacao4!! + pontuacaoQuestao7
+            }
+        }
+        return pontuacaoQuestao8
+
     }
 }

@@ -1,0 +1,2 @@
+com/example/elvis_lopes_dr1_tp3/BuildConfig.java
+ com.example.elvis_lopes_dr1_tp3.BuildConfig

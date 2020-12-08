@@ -5,55 +5,72 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.RadioButton
+import androidx.navigation.fragment.findNavController
+import kotlinx.android.synthetic.main.fragment_questao3.*
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [Questao3Fragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class Questao3Fragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
-    }
+    var pontuacaoQuestao3: Int = 0
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
+    lateinit var radioButton: RadioButton
+
+    val questao3 = Questoes(3,
+                            "Qual das alternativas melhor classifica sua formação e experiência " +
+                                                                        "com o mercado Financeiro?",
+                            "Não possuo formação acadêmica ou conhecimento do mercado Financeiro ",
+                            "Possuo formação acadêmica na área Financeira, mas não tenho experiência " +
+                                    "com o mercado Financeiro ",
+                            "Possuo formação acadêmica em outra área, mas possuo conhecimento do " +
+                                    "mercado Financeiro ",
+                            "Possuo formação acadêmica na área Financeira ou pleno conhecimento do" +
+                                    " mercado Financeiro",
+                            null,
+                            0, 2,4,5,null)
+
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_questao3, container, false)
     }
+        override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+            super.onViewCreated(view, savedInstanceState)
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment Questao3Fragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            Questao3Fragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
+            textViewQuestion.text = questao3.questoes
+            radioButtonOptionA.text = questao3.opcao1
+            radioButtonOptionB.text = questao3.opcao2
+            radioButtonOptionC.text = questao3.opcao3
+            radioButtonOptionD.text = questao3.opcao4
+
+            btnProximaQuestao.setOnClickListener {
+                var bundlePontuacao3 = Bundle(clickRadioButton3())
+                bundlePontuacao3.putInt("pontuacao3", pontuacaoQuestao3)
+
+                findNavController().navigate(R.id.action_questao3Fragment2_to_questao4Fragment, bundlePontuacao3)
             }
-    }
-}
+        }
+
+        private fun clickRadioButton3(): Int {
+                val pontuacaoQuestao2: Int = arguments?.get("pontuacao2") as Int
+                val opcaoRadioButton = radioGroupOptions.checkedRadioButtonId
+                radioButton = radioGroupOptions.findViewById(opcaoRadioButton)
+
+                val _questao3 = Questao3Fragment().questao3
+
+                when {
+                    radioButtonOptionA.isChecked -> {
+                        pontuacaoQuestao3 = _questao3.pontuacao1 + pontuacaoQuestao2
+                    }
+                    radioButtonOptionB.isChecked -> {
+                        pontuacaoQuestao3 = _questao3.pontuacao2 + pontuacaoQuestao2
+                    }
+                    radioButtonOptionC.isChecked -> {
+                        pontuacaoQuestao3 = _questao3.pontuacao3 + pontuacaoQuestao2
+                    }
+                    radioButtonOptionD.isChecked -> {
+                        pontuacaoQuestao3 = _questao3.pontuacao4!! + pontuacaoQuestao2
+                    }
+                }
+                return pontuacaoQuestao3
+
+            }
+
+        }

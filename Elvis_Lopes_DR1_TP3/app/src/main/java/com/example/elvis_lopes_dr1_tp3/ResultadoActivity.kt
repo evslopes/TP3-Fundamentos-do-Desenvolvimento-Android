@@ -10,7 +10,7 @@ class ResultadoActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_resultado)
 
-        var usuarioNome: String? = intent!!.getStringExtra("username").toString()
+        var usuarioNome: String? = intent!!.getStringExtra("userName").toString()
         textViewNomeUsuario.text = "Usuário: $usuarioNome"
 
         var pontuacao: Int = intent!!.getIntExtra("pontuacao9", 0)
@@ -25,12 +25,15 @@ class ResultadoActivity : AppCompatActivity() {
     }
 
     private fun PerfilInvestidor(pontuacaoFinal: Int) {
-        if (pontuacaoFinal <= 12) {
-            textViewInvestidorPerfil.text = "Investidor: Conservador"
-        } else textViewInvestidorPerfil.text = if (pontuacaoFinal <= 29) {
-            "Investidor: Moderado"
-        } else {
-            "Investidor: Arrojado"
+        when {
+            pontuacaoFinal <= 12 -> {
+                textViewInvestidorPerfil.text = "Investidor: Conservador"
+            }
+            else -> textViewInvestidorPerfil.text = if (pontuacaoFinal <= 29) {
+                "Investidor: Moderado"
+            } else {
+                "Investidor: Arrojado"
+            }
         }
-        }
+    }
 }

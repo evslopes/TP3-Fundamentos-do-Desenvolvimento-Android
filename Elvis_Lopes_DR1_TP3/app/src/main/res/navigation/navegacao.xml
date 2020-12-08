@@ -23,6 +23,11 @@
             android:id="@+id/action_questao2Fragment_to_questao3Fragment2"
             app:destination="@id/questao3Fragment2" />
     </fragment>
+    <activity
+        android:id="@+id/ResultadoActivity"
+        android:name="com.example.elvis_lopes_dr1_tp3.ResultadoActivity"
+        android:label="activity_result"
+        tools:layout="@layout/activity_resultado" />
     <fragment
         android:id="@+id/questao3Fragment2"
         android:name="com.example.elvis_lopes_dr1_tp3.Questao3Fragment"

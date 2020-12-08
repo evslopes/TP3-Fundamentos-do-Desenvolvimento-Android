@@ -5,55 +5,72 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.RadioButton
+import androidx.navigation.fragment.findNavController
+import kotlinx.android.synthetic.main.fragment_questao7.*
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [Questao7Fragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class Questao7Fragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
+    var pontuacaoQuestao7: Int = 0
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
+    lateinit var radioButton: RadioButton
+
+    val questao7 = Questoes(7,
+            "7. Em relação as aplicações e rendimentos, em qual dessas situações você " +
+                    "se enquadra?",
+            "Conto com o rendimento dessas aplicações para complementar minha renda " +
+                    "mensal",
+            "Eventualmente posso resgatar parte das aplicações para fazer frente aos " +
+                    "meus gastos. Contudo, não tenho intenção de resgatar no curto prazo e " +
+                    "pretendo fazer aplicações regulares",
+            "Não tenho intenção de resgatar no curto prazo, mas não pretendo realizar " +
+                    "novas aplicações",
+            "Não tenho intenção de resgatar no curto prazo e ainda pretendo fazer " +
+                    "aplicações regulares",
+            null,
+            0, 2,3,4,null)
+
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        return inflater.inflate(R.layout.fragment_questao7, container, false)
+    }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        textViewQuestion.text = questao7.questoes
+        radioButtonOptionA.text = questao7.opcao1
+        radioButtonOptionB.text = questao7.opcao2
+        radioButtonOptionC.text = questao7.opcao3
+        radioButtonOptionD.text = questao7.opcao4
+
+        btnProximaQuestao.setOnClickListener {
+            var bundlePontuacao7 = Bundle(clickRadioButton6())
+            bundlePontuacao7.putInt("pontuacao7", pontuacaoQuestao7)
+
+            findNavController().navigate(R.id.action_questao7Fragment_to_questao8Fragment, bundlePontuacao7)
         }
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_questao7, container, false)
-    }
+    private fun clickRadioButton6(): Int {
+        val pontuacaoQuestao6: Int = arguments?.get("pontuacao6") as Int
+        val opcaoRadioButton = radioGroupOptions.checkedRadioButtonId
+        radioButton = radioGroupOptions.findViewById(opcaoRadioButton)
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment Questao7Fragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            Questao7Fragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
+        val _questao7 = Questao6Fragment().questao6
+
+        when {
+            radioButtonOptionA.isChecked -> {
+                pontuacaoQuestao7 = _questao7.pontuacao1 + pontuacaoQuestao6
             }
+            radioButtonOptionB.isChecked -> {
+                pontuacaoQuestao7 = _questao7.pontuacao2 + pontuacaoQuestao6
+            }
+            radioButtonOptionC.isChecked -> {
+                pontuacaoQuestao7 = _questao7.pontuacao3 + pontuacaoQuestao6
+            }
+            radioButtonOptionD.isChecked -> {
+                pontuacaoQuestao7 = _questao7.pontuacao4!! + pontuacaoQuestao6
+            }
+        }
+        return pontuacaoQuestao7
+
     }
 }

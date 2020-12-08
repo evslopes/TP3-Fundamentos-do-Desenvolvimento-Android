@@ -1,0 +1,242 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\47f5a1cc77361d948c20256091fc0fe6\navigation-fragment-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\6c4b6ad8c27660fb6dc71cbe42841a1d\fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\73e99cd85fcb6a1c638595bf4a93ac61\navigation-ui-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\e258817065cb76f248f381675371b3b6\navigation-runtime-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\faafafbe172b8a0fbd53d105741ed41e\navigation-common-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\a1cb64138718431e56bcae18eb116ddd\activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\ff678cde26e7e06eea76aa42e90e87cb\core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\6ba8f0f08cecb316f3207e575c5ec2e1\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\137a0066b1b0467a3dfabdb33396998d\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\f32e4fa27790a8e0af12b8f48df5b768\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\9cb38f3c8b72d0620f6b453ed316c73b\navigation-ui-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\00332398f440b0f57f984ab51c902822\material-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\9c12ab2c9e59b76819b97d0821cf8ba1\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\72bdc55a81450b195f7f335024eea07a\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\a03d344eb80ac41ae733ff940c4c903b\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\d9a69702274d5478eec6db646e737fe7\appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\dac0f0b5ecc1f7bb2ce191b58428f67e\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\2f40f11b44e9665a31bf558661b22ce8\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\9e50e177e6d39d399e5d41414cac8363\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\2a17122a8adfdc70b06949100ff27588\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\a1d469e0fd7cf47f3ce0628dc7824354\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\795ea0ce01ec1cf94c53ac20aa1d04a6\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\e70fc222294b72b9dddebf5487adeaea\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\98c8dfd7ff2ae5b6e4867445dabdfbc9\navigation-fragment-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\8c526faf00679131f23041c26e8fda4a\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\3ef422b29e60aaf14e2e291261cb33a8\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\b01c63b8f37fdb1b0daf14c227946411\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\dd162f623f477dbbb7a11fed5aba1d38\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\5de7477d76581dd1835444f1a9d392a5\drawerlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\10d562f54129295add2b2cfef6a48e2d\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\b5171caa76b8eac25e83c361a88908b8\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\e37b553349134e47765f3e095a636fdf\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\721f67fd841793ccd11fc9a106fe32a6\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\021cb7b3325aa99db8aa12013a1930b7\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\b268500adf77447a1d006725431ec4a2\navigation-runtime-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\f0235335c453a4f2a978737df4dcd62b\activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\4cf88a7a47f202a22831bed4d9e4e177\navigation-common-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.2] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\472cc59f258498443d4aa8879169055c\core-1.3.2\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\5eed7ed635e6a2816635d79f8b755e1a\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\7ffc029bffcf2be862bb1a879011b64e\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\d5666343ece8ac46c4b2f3393780b8ae\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\b6de1cb42e67200b6d626ebb56be8c42\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\7c2216f5f75496726ffceaa77ba47858\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\25a819ad67707902b34b1c270dd2bfff\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\19fd81038a61b7fc66949573422c125f\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\a637a6e53e870912916fc6301a2493da\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\263f68e9b926e864af336fda6ecab644\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\1e02223e08e818be1b50cce49dd28178\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\98aca2d9573321cd79a6b067bc5b2621\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\1d7e35b7548f2149d884142c489dd7bf\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\66e5c23a65987b02b61b9868bc2dc265\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\7f8370a3354343867d59cef36e06961b\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\fe97eee5d2136fd06fca1838ccded7fa\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:5:5-21:19
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\00332398f440b0f57f984ab51c902822\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\00332398f440b0f57f984ab51c902822\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\9c12ab2c9e59b76819b97d0821cf8ba1\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\9c12ab2c9e59b76819b97d0821cf8ba1\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.2] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\472cc59f258498443d4aa8879169055c\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\472cc59f258498443d4aa8879169055c\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\d5666343ece8ac46c4b2f3393780b8ae\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\d5666343ece8ac46c4b2f3393780b8ae\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\472cc59f258498443d4aa8879169055c\core-1.3.2\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:11:9-57
+activity#com.example.elvis_lopes_dr1_tp3.QuestoesActivity
+ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:12:9-63
+	android:name
+		ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:12:19-51
+activity#com.example.elvis_lopes_dr1_tp3.ResultadoActivity
+ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:13:9-55
+	android:name
+		ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:13:19-52
+activity#com.example.elvis_lopes_dr1_tp3.MainActivity
+ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:14:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\47f5a1cc77361d948c20256091fc0fe6\navigation-fragment-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\47f5a1cc77361d948c20256091fc0fe6\navigation-fragment-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\6c4b6ad8c27660fb6dc71cbe42841a1d\fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\6c4b6ad8c27660fb6dc71cbe42841a1d\fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\73e99cd85fcb6a1c638595bf4a93ac61\navigation-ui-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\73e99cd85fcb6a1c638595bf4a93ac61\navigation-ui-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\e258817065cb76f248f381675371b3b6\navigation-runtime-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\e258817065cb76f248f381675371b3b6\navigation-runtime-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\faafafbe172b8a0fbd53d105741ed41e\navigation-common-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\faafafbe172b8a0fbd53d105741ed41e\navigation-common-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\a1cb64138718431e56bcae18eb116ddd\activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\a1cb64138718431e56bcae18eb116ddd\activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\ff678cde26e7e06eea76aa42e90e87cb\core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\ff678cde26e7e06eea76aa42e90e87cb\core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\6ba8f0f08cecb316f3207e575c5ec2e1\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\6ba8f0f08cecb316f3207e575c5ec2e1\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\137a0066b1b0467a3dfabdb33396998d\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\137a0066b1b0467a3dfabdb33396998d\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\f32e4fa27790a8e0af12b8f48df5b768\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\f32e4fa27790a8e0af12b8f48df5b768\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\9cb38f3c8b72d0620f6b453ed316c73b\navigation-ui-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\9cb38f3c8b72d0620f6b453ed316c73b\navigation-ui-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\00332398f440b0f57f984ab51c902822\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\00332398f440b0f57f984ab51c902822\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\9c12ab2c9e59b76819b97d0821cf8ba1\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\9c12ab2c9e59b76819b97d0821cf8ba1\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\72bdc55a81450b195f7f335024eea07a\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\72bdc55a81450b195f7f335024eea07a\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\a03d344eb80ac41ae733ff940c4c903b\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\a03d344eb80ac41ae733ff940c4c903b\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\d9a69702274d5478eec6db646e737fe7\appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\d9a69702274d5478eec6db646e737fe7\appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\dac0f0b5ecc1f7bb2ce191b58428f67e\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\dac0f0b5ecc1f7bb2ce191b58428f67e\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\2f40f11b44e9665a31bf558661b22ce8\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\2f40f11b44e9665a31bf558661b22ce8\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\9e50e177e6d39d399e5d41414cac8363\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\9e50e177e6d39d399e5d41414cac8363\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\2a17122a8adfdc70b06949100ff27588\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\2a17122a8adfdc70b06949100ff27588\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\a1d469e0fd7cf47f3ce0628dc7824354\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\a1d469e0fd7cf47f3ce0628dc7824354\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\795ea0ce01ec1cf94c53ac20aa1d04a6\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\795ea0ce01ec1cf94c53ac20aa1d04a6\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\e70fc222294b72b9dddebf5487adeaea\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\e70fc222294b72b9dddebf5487adeaea\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\98c8dfd7ff2ae5b6e4867445dabdfbc9\navigation-fragment-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\98c8dfd7ff2ae5b6e4867445dabdfbc9\navigation-fragment-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\8c526faf00679131f23041c26e8fda4a\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\8c526faf00679131f23041c26e8fda4a\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\3ef422b29e60aaf14e2e291261cb33a8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\3ef422b29e60aaf14e2e291261cb33a8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\b01c63b8f37fdb1b0daf14c227946411\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\b01c63b8f37fdb1b0daf14c227946411\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\dd162f623f477dbbb7a11fed5aba1d38\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\dd162f623f477dbbb7a11fed5aba1d38\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\5de7477d76581dd1835444f1a9d392a5\drawerlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\5de7477d76581dd1835444f1a9d392a5\drawerlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\10d562f54129295add2b2cfef6a48e2d\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\10d562f54129295add2b2cfef6a48e2d\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\b5171caa76b8eac25e83c361a88908b8\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\b5171caa76b8eac25e83c361a88908b8\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\e37b553349134e47765f3e095a636fdf\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\e37b553349134e47765f3e095a636fdf\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\721f67fd841793ccd11fc9a106fe32a6\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\721f67fd841793ccd11fc9a106fe32a6\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\021cb7b3325aa99db8aa12013a1930b7\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\021cb7b3325aa99db8aa12013a1930b7\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\b268500adf77447a1d006725431ec4a2\navigation-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\b268500adf77447a1d006725431ec4a2\navigation-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\f0235335c453a4f2a978737df4dcd62b\activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\f0235335c453a4f2a978737df4dcd62b\activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\4cf88a7a47f202a22831bed4d9e4e177\navigation-common-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\4cf88a7a47f202a22831bed4d9e4e177\navigation-common-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\472cc59f258498443d4aa8879169055c\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\472cc59f258498443d4aa8879169055c\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\5eed7ed635e6a2816635d79f8b755e1a\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\5eed7ed635e6a2816635d79f8b755e1a\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\7ffc029bffcf2be862bb1a879011b64e\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\7ffc029bffcf2be862bb1a879011b64e\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\d5666343ece8ac46c4b2f3393780b8ae\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\d5666343ece8ac46c4b2f3393780b8ae\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\b6de1cb42e67200b6d626ebb56be8c42\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\b6de1cb42e67200b6d626ebb56be8c42\lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\7c2216f5f75496726ffceaa77ba47858\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\7c2216f5f75496726ffceaa77ba47858\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\25a819ad67707902b34b1c270dd2bfff\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\25a819ad67707902b34b1c270dd2bfff\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\19fd81038a61b7fc66949573422c125f\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\19fd81038a61b7fc66949573422c125f\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\a637a6e53e870912916fc6301a2493da\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\a637a6e53e870912916fc6301a2493da\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\263f68e9b926e864af336fda6ecab644\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\263f68e9b926e864af336fda6ecab644\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\1e02223e08e818be1b50cce49dd28178\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\1e02223e08e818be1b50cce49dd28178\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\98aca2d9573321cd79a6b067bc5b2621\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\98aca2d9573321cd79a6b067bc5b2621\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\1d7e35b7548f2149d884142c489dd7bf\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\1d7e35b7548f2149d884142c489dd7bf\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\66e5c23a65987b02b61b9868bc2dc265\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\66e5c23a65987b02b61b9868bc2dc265\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\7f8370a3354343867d59cef36e06961b\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\7f8370a3354343867d59cef36e06961b\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\fe97eee5d2136fd06fca1838ccded7fa\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\evslo\.gradle\caches\transforms-2\files-2.1\fe97eee5d2136fd06fca1838ccded7fa\annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\evslo\OneDrive\Estudos\Android\Fundamentos de Desenvolvimento Android\DR1_TP3\Elvis_Lopes_DR1_TP3\app\src\main\AndroidManifest.xml

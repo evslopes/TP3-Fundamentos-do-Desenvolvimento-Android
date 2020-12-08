@@ -1,6 +1,7 @@
 package com.example.elvis_lopes_dr1_tp3
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -21,17 +22,27 @@ class MainActivity : AppCompatActivity() {
         editTextUsuarioNome = findViewById(R.id.editTextUsuarioNome)
 
         btnIniciarQuestionario.setOnClickListener {
-            var nomeUsario = editTextUsuarioNome.text.toString()
+            var nomeUsuario = editTextUsuarioNome.text.toString()
 
-            if (nomeUsario.isEmpty()){
+            if (nomeUsuario.isEmpty()){
                 Toast.makeText(this, "Informe seu nome", Toast.LENGTH_LONG).show()
             } else {
                 val alterActivity = Intent(this, QuestoesActivity::class.java)
-                alterActivity.putExtra("userName", nomeUsario)
+                alterActivity.putExtra("userName", nomeUsuario)
                 startActivity(alterActivity)
             }
         }
 
+        textViewCreditoCriadorPage = findViewById(R.id.textViewCreditoCriadorPage)
+        textViewCreditoCriadorPage.setOnClickListener {
+            var creditoCriadorPage = Intent(
+                    Intent.ACTION_VIEW,
+                    Uri.parse("https://www.bancopaulista.com.br/Arquivos/QuestionarioAPI.pdf")
+            )
+            if (creditoCriadorPage.resolveActivity(packageManager) !=
+                    null)
+                startActivity(creditoCriadorPage)
+        }
 
 
 

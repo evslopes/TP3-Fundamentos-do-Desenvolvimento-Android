@@ -5,55 +5,81 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.RadioButton
+import androidx.navigation.fragment.findNavController
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.fragment_questao1.*
+import kotlinx.android.synthetic.main.fragment_questao2.*
+import kotlinx.android.synthetic.main.fragment_questao2.btnProximaQuestao
+import kotlinx.android.synthetic.main.fragment_questao2.radioButtonOptionA
+import kotlinx.android.synthetic.main.fragment_questao2.radioButtonOptionB
+import kotlinx.android.synthetic.main.fragment_questao2.radioButtonOptionC
+import kotlinx.android.synthetic.main.fragment_questao2.radioButtonOptionD
+import kotlinx.android.synthetic.main.fragment_questao2.radioGroupOptions
+import kotlinx.android.synthetic.main.fragment_questao2.textViewQuestion
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [Questao2Fragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class Questao2Fragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
-    }
+    var pontuacaoQuestao2: Int = 0
+    lateinit var radioButton: RadioButton
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
+    val questao2 = Questoes(2,
+                            "2. Qual o objetivo desse investimento?",
+                            " baixos riscos de perdas",
+                            "Aumento gradual do capital ao longo do tempo, " +
+                                                            "assumindo riscos moderados",
+                            "Aumento do capital acima da taxa de retorno média do mercado, mesmo que" +
+                                                        " isso implique assumir riscos de perdas elevadas",
+                            "Obter no curto prazo retornos elevados e significativamente acima da taxa " +
+                                                        "de retorno média do mercado, assumindo riscos elevados",
+                            null,
+                            0, 2,4,5,null)
+
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_questao2, container, false)
     }
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment Questao2Fragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            Questao2Fragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        textViewQuestion.text = questao2.questoes
+        radioButtonOptionA.text = questao2.opcao1
+        radioButtonOptionB.text = questao2.opcao2
+        radioButtonOptionC.text = questao2.opcao3
+        radioButtonOptionD.text = questao2.opcao4
+
+        btnProximaQuestao.setOnClickListener {
+            var bundlePontuacao2 = Bundle(clickRadioButton2())
+            bundlePontuacao2.putInt("pontuacao2", pontuacaoQuestao2)
+
+            findNavController().navigate(R.id.action_questao2Fragment_to_questao3Fragment2, bundlePontuacao2)
+        }
     }
+
+    private fun clickRadioButton2(): Int {
+       val pontuacaoQuestao1: Int = arguments?.get("pontuacao1") as Int
+       val opcaoRadioButton = radioGroupOptions.checkedRadioButtonId
+        radioButton = radioGroupOptions.findViewById(opcaoRadioButton)
+
+       val _questao2 = Questao2Fragment().questao2
+
+        when {
+            radioButtonOptionA.isChecked -> {
+                pontuacaoQuestao2 = _questao2.pontuacao1 + pontuacaoQuestao1
+            }
+            radioButtonOptionB.isChecked -> {
+                pontuacaoQuestao2 = _questao2.pontuacao2 + pontuacaoQuestao1
+            }
+            radioButtonOptionC.isChecked -> {
+                pontuacaoQuestao2 = _questao2.pontuacao3 + pontuacaoQuestao1
+            }
+            radioButtonOptionD.isChecked -> {
+                pontuacaoQuestao2 = _questao2.pontuacao4!! + pontuacaoQuestao1
+            }
+        }
+       return pontuacaoQuestao2
+
+    }
+
+
 }
